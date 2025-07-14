@@ -37,7 +37,6 @@ const OrderConfirmation = () => {
           <tbody className="">
             <tr>
               <td className=" ">
-                {/* <TableProduct cart={cart} /> */}
                 <ShowOrderProduct items={latestOrder?.orderItems} />
               </td>
               <td className=" ">
