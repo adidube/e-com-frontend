@@ -12,6 +12,8 @@ import Profile from './Component/User/Profile';
 import Cart from './Component/User/Cart';
 import Address from './Component/User/Address';
 import Checkout from './Component/User/Checkout';
+import OrderConfirmation from './Component/User/OrderConfirmation';
+
 
 function App() {
   
@@ -30,6 +32,8 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/shipping" element={<Address />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/orderconfirmation" element={<OrderConfirmation />} />
+
         </Routes>
       </Router>
     

@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import AppContext from "../../Context/AppContext";
 import './Navbar.css'
 
+
 function Navbar() {
   const [searchTerm, setSearchTerm] = useState();
   const location = useLocation();
@@ -81,6 +82,7 @@ function Navbar() {
               <Link to={"/register"} className="btn btn-info mx-3">
                 register
               </Link>
+             
             </>
           )}
         </div>
@@ -102,11 +104,7 @@ function Navbar() {
           <div className="items" onClick={() => filterbyCategory("headphones")}>
             Hedphones
           </div>
-          {/* <div className="items" onClick={() => filterbyPrice(15999)}>
-            15999
-          </div>
           
-          </div> */}
         </div>
       )}
     </div>

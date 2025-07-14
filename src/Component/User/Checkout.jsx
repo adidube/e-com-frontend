@@ -65,7 +65,7 @@ const Checkout = () => {
 
           if (api.data.success) {
             clearCart();
-            navigate("/oderconfirmation");
+            navigate("/orderconfirmation");
           }
         },
         prefill: {

@@ -22,25 +22,25 @@ const OrderConfirmation = () => {
       </div>
 
       <div className="container">
-        <table className="table table-bordered border-primary bg-dark">
-          <thead className="bg-dark">
+        <table className="table table-bordered border-primary ">
+          <thead className="">
             <tr>
-              <th scope="col" className="bg-dark text-light text-center">
+              <th scope="col" className="  text-center">
                 OrderItems
               </th>
 
-              <th scope="col" className="bg-dark text-light text-center">
+              <th scope="col" className="  text-center">
                 OrderDetails & ShippingAddress
               </th>
             </tr>
           </thead>
-          <tbody className="bg-dark">
+          <tbody className="">
             <tr>
-              <td className="bg-dark text-light">
+              <td className=" ">
                 {/* <TableProduct cart={cart} /> */}
                 <ShowOrderProduct items={latestOrder?.orderItems} />
               </td>
-              <td className="bg-dark text-light">
+              <td className=" ">
                 <ul style={{ fontWeight: "bold" }}>
                   <li>OrderId : {latestOrder?.orderId}</li>
                   <li>PaymentId : {latestOrder?.paymentId}</li>
